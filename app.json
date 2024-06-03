@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "fin_3_AprilStudio",
+    "slug": "fin_3_AprilStudio",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/img/startbutton.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "842494f3-41a2-4879-966e-9674e96ecb0b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/842494f3-41a2-4879-966e-9674e96ecb0b"
+    }
+  }
+}
